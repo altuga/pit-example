@@ -2,13 +2,18 @@ package pitexample;
 
 public class MyClass {
 
-    public boolean myMethod(int a, boolean flag) {
-        if (a > 0) {
+
+
+    public boolean yourMethod(int a) {
+
+        int  min = 1; // i know hard code is not good
+        int  max = 5; // same is here :(
+
+        if ((a >= min) &&  (a <= max)) {
             return true;
         }
-        if (flag) {
-            return true;
-        }
+
         return false;
     }
+
 }
