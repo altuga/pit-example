@@ -16,4 +16,9 @@ public class MyClass {
         return false;
     }
 
+    public int topla(int a, int b) {
+        return a + b ;
+    }
+
+
 }
