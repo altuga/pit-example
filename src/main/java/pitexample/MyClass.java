@@ -6,8 +6,8 @@ public class MyClass {
 
     public boolean yourMethod(int a) {
 
-        int  min = 1; // i know hard code is not good
-        int  max = 5; // same is here :(
+        int  min = 1; // iyi degil biliyorum
+        int  max = 5; // ayni sekilde
 
         if ((a >= min) &&  (a <= max)) {
             return true;
